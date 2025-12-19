@@ -1,0 +1,168 @@
+form {
+  width: 40%;
+  text-align: right;
+  padding-right: 190px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* espaço entre inputs e botão */
+}
+
+body {
+  background-color: rgb(46, 109, 164); /* qualquer cor */
+  font-family:
+    "Segoe UI Emoji",
+    "Apple Color Emoji",
+    "Noto Color Emoji",
+    sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.6rem;
+  font-weight: 80;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color:  rgb(46, 109, 164);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  position: relative;
+  padding-bottom: 12px;
+}
+
+h2 {
+  font-size: 2.6rem;
+  font-weight: 80;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size:large;
+  background-color:  rgb(46, 109, 164);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  position: relative;
+  padding-bottom: 20px;
+  margin-top: -19px;
+}
+
+h3 {
+  font-size: 2.6rem;
+  font-weight: 80;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size:large;
+  background-color:  rgb(46, 109, 164);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.page {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #007bff;
+  font-size: large;
+  gap: 8px;
+  margin-top: 9px; /* espaço entre botão e checkbox */
+  font-size: 16px;
+}
+
+.checkbox label {
+  white-space: nowrap;
+}
+
+
+input {
+  width: 250%;
+  text-align: left;
+  padding: 14px 1px;
+  padding-left: 6px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #f4f5f6;
+  background: #f0eeee;
+  transition: all 0.3s ease;
+}
+
+
+input:focus {
+  outline: none;
+  border-color: #14b8a6;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(20,184,166,0.3);
+}
+
+.input-error {
+  border-color: #ef4444;
+  background: #fef2f2;
+}
+
+/* card que fica no fundo do login */
+.card {
+  background: rgb(255, 255, 255);
+  border-radius: 11px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+
+  width: 320px;
+  padding: 40px 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centraliza tudo horizontalmente */
+}
+
+.card h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+/* card que fica no fundo do login */
+
+.btn {
+  background-color: #316ba9; /* cor do botão */
+  color: white;              /* cor do texto */
+  padding: 13px 10px;        /* espaço interno */
+  border: none;              /* tira a borda padrão */
+  border-radius: 5px;        /* pequenas curvas nas pontas */
+  cursor: pointer;           /* muda o cursor quando passa o mouse */
+  font-size: 16px;           /* tamanho da fonte */
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif; /* estilo da fonte do botão */
+  margin-top: 7%;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(99,102,241,0.4);
+}
