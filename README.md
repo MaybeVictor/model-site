@@ -15,6 +15,13 @@
 - Clean UI
 - Mobile-first design
 
+## 📸 Screenshots
+![Preview](./preview.png)
+
+## 👨‍💻 Author
+Victor Emanuel  
+Junior Front-end Developer
+
 ## 📦 How to run locally
 
 ```bash
@@ -22,9 +29,3 @@ git clone https://github.com/seu-usuario/nome-do-projeto.git
 cd nome-do-projeto
 open index.html
 
-## 📸 Screenshots
-![Preview](./preview.png)
-
-## 👨‍💻 Author
-Victor Emanuel  
-Junior Front-end Developer
