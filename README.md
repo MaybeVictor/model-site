@@ -25,7 +25,7 @@ Junior Front-end Developer
 ## 📦 How to run locally
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-projeto.git
+git clone (https://github.com/MaybeVictor/model-site)
 cd nome-do-projeto
 open index.html
 
